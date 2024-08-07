@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"removeComments": true,
+		"esModuleInterop": false,
+		"sourceMap": true,
+		"outDir": "build",
+		"baseUrl": "./",
+		"paths": {
+			"*": ["node_modules/*", "src/types/*"],
+			"@/*": ["src/*"]
+		},
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"resolveJsonModule": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["src/common/database"]
+}

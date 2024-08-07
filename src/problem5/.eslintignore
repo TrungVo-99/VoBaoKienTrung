@@ -1,0 +1,7 @@
+node_modules
+build
+src/utils/parse.utils.ts
+src/common/database/migrations
+src/common/database/seeders
+src/types
+src/services/utilService.ts

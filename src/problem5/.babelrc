@@ -1,0 +1,17 @@
+{
+	"presets": [["@babel/preset-env"]],
+	"plugins": [
+		[
+			"babel-plugin-root-import",
+			{
+				"rootPathSuffix": "build",
+				"rootPathPrefix": "@"
+			}
+		],
+		["@babel/plugin-transform-runtime"],
+		"@babel/plugin-syntax-import-source",
+		"istanbul"
+	],
+	"sourceMaps": "inline",
+	"retainLines": true
+}
